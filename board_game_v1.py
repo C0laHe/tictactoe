@@ -196,7 +196,7 @@ def draw_previous_steps():
                 print(draw_x, draw_y)
 
 def reset():
-    global current_player, turn_number
+    global current_player
     global board
     current_player = 1
     turn_number = 0
